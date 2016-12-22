@@ -1,12 +1,15 @@
-## 说明
+## 利用python从arduino中读取数据
 这是一个利用python从arduino中读取信息的例子。
+
 ## 运行要求
+- python3
 - 安装pyserial
 ```
 $pip install pyserial
 ```
 - 烧录example.ino进arduino开发板
 - 将example.py中的串行接口`com3`改成自己的开发板接口
+
 ## 解释
 example.py中
 - `ser = serial.Serial('COM3', 9600)`
